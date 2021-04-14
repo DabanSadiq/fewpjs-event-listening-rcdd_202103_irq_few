@@ -1,6 +1,6 @@
 const input = document.getElementById('input');
 
-input.addingEventListener('submit',addingEventListener);
+input.addEventListener('click',addingEventListener );
 
 function addingEventListener() {
   alert("hi")
